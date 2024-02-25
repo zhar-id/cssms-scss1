@@ -1,0 +1,161 @@
+:root {
+  --color: rgba(250, 235, 215, 0.98);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.about-us {
+  background-color: var(--color);
+  position: relative;
+  margin-top: 120px;
+}
+.about-us .bg {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  filter: sepia(100%) saturate(7500%) opacity(30%);
+  opacity: 0.3;
+}
+.about-us .about {
+  position: absolute;
+  top: -50px;
+}
+.about-us .about .container-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 220px;
+}
+.about-us .about .container-about img {
+  flex: 1;
+  width: 325px;
+  border: 4px solid white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.about-us .about .container-about .text {
+  margin-top: 90px;
+  margin-left: 155px;
+}
+.about-us .about .container-about .text h2 span {
+  border: 1px solid transparent;
+  border-bottom: 3px solid #f6951e;
+}
+.about-us .about .container-about .text h3 {
+  margin-top: 32px;
+  width: 400px;
+}
+.about-us .about .container-about .text p {
+  margin-top: 16px;
+  width: 425px;
+}
+.about-us .about .container-about .text button {
+  margin-top: 30px;
+  margin-right: 5px;
+  padding-left: 1rem;
+  padding-right: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #2f2106;
+  border-radius: 20px;
+  border: none;
+}
+.about-us .about .container-about .text button a {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #f6951e;
+  text-decoration: none;
+}
+
+#special-menu {
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  margin-left: 135px;
+}
+#special-menu .special-menu-subtitle {
+  border: 1px solid transparent;
+  border-bottom: 3px solid #f6951e;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+.container-menu .card-menu {
+  flex: 0 0 10%;
+  position: relative;
+  margin-left: 4px;
+  border-radius: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Box shadow dengan warna latar belakang putih */
+  margin-bottom: 16px;
+}
+.container-menu .card-menu .rating-badge {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: #f8f9fa;
+  padding: 2px 6px;
+  border-radius: 20px;
+}
+.container-menu .card-menu .rating-text {
+  font-weight: bold;
+  margin-left: 4px;
+}
+.container-menu .card-menu .rating-star {
+  position: relative;
+  top: 3px;
+  width: 20px;
+}
+.container-menu .card-menu .card-img {
+  padding: 20px;
+  border-radius: 32px;
+  width: 285px;
+}
+.container-menu .card-menu .card-body {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -10px;
+}
+.container-menu .card-menu .card-body .card-title {
+  flex: 1;
+  font-weight: 600;
+  margin-left: 25px;
+}
+.container-menu .card-menu .card-body .card-text {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #838383;
+  margin-left: 25px;
+  margin-top: 3px;
+  width: 170px;
+}
+.container-menu .card-menu .card-body .card-price {
+  font-weight: 700;
+  margin-right: 30px;
+}
+.container-menu .card-menu .card-body .card-btn {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.container-menu .card-menu .card-body .card-btn .cart-icon {
+  font-size: 20px;
+  padding: 5px 10px;
+  margin-top: 100px;
+  margin-left: 55px;
+  border-radius: 20px;
+  background-color: #f6951e;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
